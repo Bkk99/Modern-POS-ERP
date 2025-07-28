@@ -1,3 +1,4 @@
+
 import OpenAI from 'openai';
 import { Transaction, Product, AiService } from '../types.ts';
 

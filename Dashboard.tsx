@@ -1,3 +1,4 @@
+
 import React, { useEffect, useMemo, useState, useCallback } from 'react';
 import { useInventory } from '../hooks/useInventory.ts';
 import StatCard from '../components/StatCard.tsx';

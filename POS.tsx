@@ -1,3 +1,4 @@
+
 import React, { useState, useMemo, useCallback } from 'react';
 import { useInventory } from '../hooks/useInventory.ts';
 import { Product, CartItem, ProductType } from '../types.ts';
@@ -155,7 +156,7 @@ const POS: React.FC = () => {
                         />
                     </div>
                     <div className="flex items-center gap-2 overflow-x-auto pb-2 -mb-2">
-                        {categories.map(category => (
+                        {categories.map((category: string) => (
                             <button
                                 key={category}
                                 onClick={() => setSelectedCategory(category)}

@@ -1,3 +1,4 @@
+
 import { Transaction } from '../types.ts';
 
 const generateReceiptHtml = (transaction: Transaction): string => {
