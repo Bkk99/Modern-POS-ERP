@@ -1,14 +1,14 @@
 
 import React, { useState } from 'react';
 import { HashRouter, Routes, Route, Navigate } from 'react-router-dom';
-import Sidebar from './components/Sidebar';
-import Dashboard from './pages/Dashboard';
-import POS from './pages/POS';
-import Inventory from './pages/Inventory';
-import SalesHistory from './pages/SalesHistory';
-import Header from './components/Header';
-import Database from './pages/Database';
-import Settings from './pages/Settings';
+import Sidebar from './components/Sidebar.tsx';
+import Dashboard from './pages/Dashboard.tsx';
+import POS from './pages/POS.tsx';
+import Inventory from './pages/Inventory.tsx';
+import SalesHistory from './pages/SalesHistory.tsx';
+import Header from './components/Header.tsx';
+import Database from './pages/Database.tsx';
+import Settings from './pages/Settings.tsx';
 
 const App: React.FC = () => {
   const [isSidebarOpen, setSidebarOpen] = useState(false);
