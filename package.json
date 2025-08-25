@@ -1,9 +1,5 @@
 {
-  "scripts": {
-    "build": "[my-framework] build --output public"
-  }
-}
-  "name": "modern-pos-erp",
+  "name": "modern-pos-erp-2025",
   "private": true,
   "version": "0.0.0",
   "type": "module",
