@@ -1,4 +1,4 @@
-name = "modern-pos-erp"
+name = "moderncafe2025"
 account_id = "a9fbc05d21c1209a8d9f50a25c6286f4"
 compatibility_date = "2025-08-26"
 
@@ -9,3 +9,4 @@ command = "bun run build"
 
 [assets]
 directory = "./dist"
+
