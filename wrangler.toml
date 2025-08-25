@@ -1,10 +1,11 @@
 name = "modern-pos-erp"
-account_id = "ใส่-account-id-คุณที่นี่"
+account_id = "a9fbc05d21c1209a8d9f50a25c6286f4"
 compatibility_date = "2025-08-26"
 
-[site]
-bucket = "./dist"
-entry-point = "."
+main = "dist/index.html"
 
 [build]
 command = "bun run build"
+
+[assets]
+directory = "./dist"
