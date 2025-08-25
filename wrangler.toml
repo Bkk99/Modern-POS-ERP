@@ -1,6 +1,10 @@
-name = "moderncafe2025"
-type = "javascript"
-
-account_id = "a9fbc05d21c1209a8d9f50a25c6286f4"
-workers_dev = true
+name = "modern-pos-erp"
+account_id = "ใส่-account-id-คุณที่นี่"
 compatibility_date = "2025-08-26"
+
+[site]
+bucket = "./dist"
+entry-point = "."
+
+[build]
+command = "bun run build"
